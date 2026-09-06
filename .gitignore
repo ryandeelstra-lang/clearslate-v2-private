@@ -25,3 +25,22 @@ next-env.d.ts
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# consumer data — NEVER commit a tape, an account file, or a "just a sample".
+# data/ryan-account.json was tracked until 31 Aug 2026 and held name, email,
+# phone and an offer token. See docs/compliance/information-security-program.md R3.
+data/
+*.tape
+*.tape.csv
+tapes/
+
+# BUSINESS STRATEGY - NEVER COMMIT TO PUBLIC REPO
+docs/decisions/
+docs/research/
+docs/outreach/
+docs/compliance/
+docs/TrueAccord.md
+docs/match-ratio-analysis.md
+docs/simulation-results.md
+docs/user-journey.md
+STATUS.md
